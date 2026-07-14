@@ -1,0 +1,19 @@
+uid: SR-0043
+type: system_requirement
+status: approved
+title: AI RMF MEASURE 2.3
+text: AI system performance or assurance criteria are measured qualitatively or quantitatively
+  and demonstrated for conditions similar to deployment setting(s). Measures are documented.
+links:
+- target: UR-0013
+  type: implements
+attrs:
+  source_ref: MEASURE 2.3
+rationale: The current risk and impact environment suggests AI system performance estimates
+  are insufficient and require a deeper understanding of deployment context of use. Computationally
+  focused performance testing and evaluation schemes are restricted to test data sets and in
+  silico techniques. These approaches do not directly evaluate risks and impacts in real world
+  environments and can only predict what might create impact based on an approximation of expected
+  AI use. To properly manage risks, more direct information is necessary to understand how and
+  under what conditions deployed AI creates impacts, who is most likely to be impacted, and
+  what that experience is like.

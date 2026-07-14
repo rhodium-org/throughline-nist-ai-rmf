@@ -1,0 +1,11 @@
+uid: UR-0010
+type: user_requirement
+status: approved
+title: MAP 4
+text: Risks and benefits are mapped for all components of the AI system including third-party
+  software and data.
+links:
+- target: INT-0002
+  type: derives_from
+attrs:
+  source_ref: MAP 4

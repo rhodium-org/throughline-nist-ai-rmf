@@ -1,0 +1,26 @@
+uid: SR-0027
+type: system_requirement
+status: approved
+title: AI RMF MAP 2.2
+text: Information about the AI system’s knowledge limits and how system output may be utilized
+  and overseen by humans is documented. Documentation provides sufficient information to assist
+  relevant AI actors when making decisions and taking subsequent actions.
+links:
+- target: UR-0008
+  type: implements
+attrs:
+  source_ref: MAP 2.2
+rationale: An AI lifecycle consists of many interdependent activities involving a diverse set
+  of actors that often do not have full visibility or control over other parts of the lifecycle
+  and its associated contexts or risks. The interdependencies between these activities, and
+  among the relevant AI actors and organizations, can make it difficult to reliably anticipate
+  potential impacts of AI systems. For example, early decisions in identifying the purpose and
+  objective of an AI system can alter its behavior and capabilities, and the dynamics of deployment
+  setting (such as end users or impacted individuals) can shape the positive or negative impacts
+  of AI system decisions. As a result, the best intentions within one dimension of the AI lifecycle
+  can be undermined via interactions with decisions and conditions in other, later activities.
+  This complexity and varying levels of visibility can introduce uncertainty. And, once deployed
+  and in use, AI systems may sometimes perform poorly, manifest unanticipated negative impacts,
+  or violate legal or ethical norms. These risks and incidents can result from a variety of
+  factors. For example, downstream decisions can be influenced by end user over-trust or under-trust,
+  and other complexities related to AI-supported decision-making.

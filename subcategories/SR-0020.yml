@@ -1,0 +1,18 @@
+uid: SR-0020
+type: system_requirement
+status: approved
+title: AI RMF MAP 1.1
+text: 'Intended purposes, potentially beneficial uses, context-specific laws, norms and expectations,
+  and prospective settings in which the AI system will be deployed are understood and documented.
+  Considerations include: the specific set or types of users along with their expectations;
+  potential positive and negative impacts of system uses to individuals, communities, organizations,
+  society, and the planet; assumptions and related limitations about AI system purposes, uses,
+  and risks across the development or product AI lifecycle; and related TEVV and system metrics.'
+links:
+- target: UR-0007
+  type: implements
+attrs:
+  source_ref: MAP 1.1
+rationale: Highly accurate and optimized systems can cause harm. Relatedly, organizations should
+  expect broadly deployed AI tools to be reused, repurposed, and potentially misused regardless
+  of intentions.

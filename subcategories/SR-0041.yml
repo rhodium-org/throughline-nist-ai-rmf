@@ -1,0 +1,14 @@
+uid: SR-0041
+type: system_requirement
+status: approved
+title: AI RMF MEASURE 2.1
+text: Test sets, metrics, and details about the tools used during TEVV are documented.
+links:
+- target: UR-0013
+  type: implements
+attrs:
+  source_ref: MEASURE 2.1
+rationale: Documenting measurement approaches, test sets, metrics, processes and materials used,
+  and associated details builds foundation upon which to build a valid, reliable measurement
+  process. Documentation enables repeatability and consistency, and can enhance AI risk management
+  decisions.

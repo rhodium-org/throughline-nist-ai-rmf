@@ -1,0 +1,16 @@
+uid: SR-0012
+type: system_requirement
+status: approved
+title: AI RMF GOVERN 3.2
+text: Policies and procedures are in place to define and differentiate roles and responsibilities
+  for human-AI configurations and oversight of AI systems.
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: GOVERN 3.2
+rationale: 'Identifying and managing AI risks and impacts are enhanced when a broad set of perspectives
+  and actors across the AI lifecycle, including technical, legal, compliance, social science,
+  and human factors expertise is engaged. AI actors include those who operate, use, or interact
+  with AI systems for downstream tasks, or monitor AI system performance. Effective risk management
+  efforts include:'

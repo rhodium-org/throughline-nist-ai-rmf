@@ -1,0 +1,15 @@
+uid: SR-0029
+type: system_requirement
+status: approved
+title: AI RMF MAP 3.1
+text: Potential benefits of intended AI system functionality and performance are examined and
+  documented.
+links:
+- target: UR-0009
+  type: implements
+attrs:
+  source_ref: MAP 3.1
+rationale: AI systems have enormous potential to improve quality of life, enhance economic prosperity
+  and security costs. Organizations are encouraged to define and document system purpose and
+  utility, and its potential positive impacts and benefits beyond current known performance
+  benchmarks.

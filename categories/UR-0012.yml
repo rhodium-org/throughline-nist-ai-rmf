@@ -1,0 +1,10 @@
+uid: UR-0012
+type: user_requirement
+status: approved
+title: MEASURE 1
+text: Appropriate methods and metrics are identified and applied.
+links:
+- target: INT-0003
+  type: derives_from
+attrs:
+  source_ref: MEASURE 1

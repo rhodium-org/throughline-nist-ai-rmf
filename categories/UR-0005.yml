@@ -1,0 +1,10 @@
+uid: UR-0005
+type: user_requirement
+status: approved
+title: GOVERN 5
+text: Processes are in place for robust engagement with relevant AI actors.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: GOVERN 5

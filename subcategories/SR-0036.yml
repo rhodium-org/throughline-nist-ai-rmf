@@ -1,0 +1,18 @@
+uid: SR-0036
+type: system_requirement
+status: approved
+title: AI RMF MAP 5.1
+text: Likelihood and magnitude of each identified impact (both potentially beneficial and harmful)
+  based on expected use, past uses of AI systems in similar contexts, public incident reports,
+  feedback from those external to the team that developed or deployed the AI system, or other
+  data are identified and documented.
+links:
+- target: UR-0011
+  type: implements
+attrs:
+  source_ref: MAP 5.1
+rationale: AI actors can evaluate, document and triage the likelihood of AI system impacts identified
+  in Map 5.1 Likelihood estimates may then be assessed and judged for go/no-go decisions about
+  deploying an AI system. If an organization decides to proceed with deploying the system, the
+  likelihood and magnitude estimates can be used to assign TEVV resources appropriate for the
+  risk level.

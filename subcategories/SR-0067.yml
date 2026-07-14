@@ -1,0 +1,17 @@
+uid: SR-0067
+type: system_requirement
+status: approved
+title: AI RMF MANAGE 2.4
+text: Mechanisms are in place and applied, and responsibilities are assigned and understood,
+  to supersede, disengage, or deactivate AI systems that demonstrate performance or outcomes
+  inconsistent with intended use.
+links:
+- target: UR-0017
+  type: implements
+attrs:
+  source_ref: MANAGE 2.4
+rationale: 'Performance inconsistent with intended use does not always increase risk or lead
+  to negative impacts. Rigorous TEVV practices are useful for protecting against negative impacts
+  regardless of intended use. When negative impacts do arise, superseding (bypassing), disengaging,
+  or deactivating/decommissioning a model, AI system component(s), or the entire AI system may
+  be necessary, such as when:'

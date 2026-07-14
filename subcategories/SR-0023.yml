@@ -1,0 +1,19 @@
+uid: SR-0023
+type: system_requirement
+status: approved
+title: AI RMF MAP 1.4
+text: The business value or context of business use has been clearly defined or – in the case
+  of assessing existing AI systems – re-evaluated.
+links:
+- target: UR-0007
+  type: implements
+attrs:
+  source_ref: MAP 1.4
+rationale: Socio-technical AI risks emerge from the interplay between technical development
+  decisions and how a system is used, who operates it, and the social context into which it
+  is deployed. Addressing these risks is complex and requires a commitment to understanding
+  how contextual factors may interact with AI lifecycle actions. One such contextual factor
+  is how organizational mission and identified system purpose create incentives within AI system
+  design, development, and deployment tasks that may result in positive and negative impacts.
+  By establishing comprehensive and explicit enumeration of AI systems’ context of of business
+  use and expectations, organizations can identify and manage these types of risks.

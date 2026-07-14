@@ -1,0 +1,17 @@
+uid: SR-0042
+type: system_requirement
+status: approved
+title: AI RMF MEASURE 2.2
+text: Evaluations involving human subjects meet applicable requirements (including human subject
+  protection) and are representative of the relevant population.
+links:
+- target: UR-0013
+  type: implements
+attrs:
+  source_ref: MEASURE 2.2
+rationale: Measurement and evaluation of AI systems often involves testing with human subjects
+  or using data captured from human subjects. Protection of human subjects is required by law
+  when carrying out federally funded research, and is a domain specific requirement for some
+  disciplines. Standard human subjects protection procedures include protecting the welfare
+  and interests of human subjects, designing evaluations to minimize risks to subjects, and
+  completion of mandatory training regarding legal requirements and expectations.

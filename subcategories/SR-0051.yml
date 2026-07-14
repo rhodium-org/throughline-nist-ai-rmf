@@ -1,0 +1,19 @@
+uid: SR-0051
+type: system_requirement
+status: approved
+title: AI RMF MEASURE 2.11
+text: Fairness and bias – as identified in the map function – are evaluated and results are
+  documented.
+links:
+- target: UR-0013
+  type: implements
+attrs:
+  source_ref: MEASURE 2.11
+rationale: Fairness in AI includes concerns for equality and equity by addressing issues such
+  as harmful bias and discrimination. Standards of fairness can be complex and difficult to
+  define because perceptions of fairness differ among cultures and may shift depending on application.
+  Organizations’ risk management efforts will be enhanced by recognizing and considering these
+  differences. Systems in which harmful biases are mitigated are not necessarily fair. For example,
+  systems in which predictions are somewhat balanced across demographic groups may still be
+  inaccessible to individuals with disabilities or affected by the digital divide or may exacerbate
+  existing disparities or systemic biases.

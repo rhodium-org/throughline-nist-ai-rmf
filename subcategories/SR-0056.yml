@@ -1,0 +1,15 @@
+uid: SR-0056
+type: system_requirement
+status: approved
+title: AI RMF MEASURE 3.3
+text: Feedback processes for end users and impacted communities to report problems and appeal
+  system outcomes are established and integrated into AI system evaluation metrics.
+links:
+- target: UR-0014
+  type: implements
+attrs:
+  source_ref: MEASURE 3.3
+rationale: Assessing impact is a two-way effort. Many AI system outcomes and impacts may not
+  be visible or recognizable to AI actors across the development and deployment dimensions of
+  the AI lifecycle, and may require direct feedback about system outcomes from the perspective
+  of end users and impacted groups.

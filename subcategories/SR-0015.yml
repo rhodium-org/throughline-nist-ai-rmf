@@ -1,0 +1,19 @@
+uid: SR-0015
+type: system_requirement
+status: approved
+title: AI RMF GOVERN 4.3
+text: Organizational practices are in place to enable AI testing, identification of incidents,
+  and information sharing.
+links:
+- target: UR-0004
+  type: implements
+attrs:
+  source_ref: GOVERN 4.3
+rationale: Identifying AI system limitations, detecting and tracking negative impacts and incidents,
+  and sharing information about these issues with appropriate AI actors will improve risk management.
+  Issues such as concept drift, AI bias and discrimination, shortcut learning or underspecification
+  are difficult to identify using current standard AI testing processes. Organizations can institute
+  in-house use and testing policies and procedures to identify and manage such issues. Efforts
+  can take the form of pre-alpha or pre-beta testing, or deploying internally developed systems
+  or products within the organization. Testing may entail limited and controlled in-house, or
+  publicly available, AI system testbeds, and accessibility of AI system interfaces and outputs.

@@ -1,0 +1,10 @@
+uid: INT-0002
+type: intent
+status: approved
+title: MAP — Recognise context and identify risks
+text: The context is recognized and risks related to context are identified. The MAP function
+  establishes the context to frame risks related to an AI system, and recognizes and enumerates
+  the interdependencies and risks of AI system activities across the AI lifecycle.
+normative: false
+attrs:
+  source_ref: MAP

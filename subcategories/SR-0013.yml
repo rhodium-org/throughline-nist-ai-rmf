@@ -1,0 +1,20 @@
+uid: SR-0013
+type: system_requirement
+status: approved
+title: AI RMF GOVERN 4.1
+text: Organizational policies and practices are in place to foster a critical thinking and safety-first
+  mindset in the design, development, deployment, and uses of AI systems to minimize potential
+  negative impacts.
+links:
+- target: UR-0004
+  type: implements
+attrs:
+  source_ref: GOVERN 4.1
+rationale: A risk culture and accompanying practices can help organizations effectively triage
+  the most critical risks. Organizations in some industries implement three (or more) “lines
+  of defense,” where separate teams are held accountable for different aspects of the system
+  lifecycle, such as development, risk management, and auditing. While a traditional three-lines
+  approach may be impractical for smaller organizations, leadership can commit to cultivating
+  a strong risk culture through other means. For example, “effective challenge,” is a culture-
+  based practice that encourages critical thinking and questioning of important design and implementation
+  decisions by experts with the authority and stature to make such changes.

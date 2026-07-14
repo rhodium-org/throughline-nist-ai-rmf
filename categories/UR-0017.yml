@@ -1,0 +1,11 @@
+uid: UR-0017
+type: user_requirement
+status: approved
+title: MANAGE 2
+text: Strategies to maximize AI benefits and minimize negative impacts are planned, prepared,
+  implemented, documented, and informed by input from relevant AI actors.
+links:
+- target: INT-0004
+  type: derives_from
+attrs:
+  source_ref: MANAGE 2

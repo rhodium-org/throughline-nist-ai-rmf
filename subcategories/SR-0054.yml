@@ -1,0 +1,18 @@
+uid: SR-0054
+type: system_requirement
+status: approved
+title: AI RMF MEASURE 3.1
+text: Approaches, personnel, and documentation are in place to regularly identify and track
+  existing, unanticipated, and emergent AI risks based on factors such as intended and actual
+  performance in deployed contexts.
+links:
+- target: UR-0014
+  type: implements
+attrs:
+  source_ref: MEASURE 3.1
+rationale: For trustworthy AI systems, regular system monitoring is carried out in accordance
+  with organizational governance policies, AI actor roles and responsibilities, and within a
+  culture of continual improvement. If and when emergent or complex risks arise, it may be necessary
+  to adapt internal risk management procedures, such as regular monitoring, to stay on course.
+  Documentation, resources, and training are part of an overall strategy to support AI actors
+  as they investigate and respond to AI system errors, incidents or negative impacts.

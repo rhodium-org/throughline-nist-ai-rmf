@@ -1,0 +1,14 @@
+uid: SR-0061
+type: system_requirement
+status: approved
+title: AI RMF MANAGE 1.2
+text: Treatment of documented AI risks is prioritized based on impact, likelihood, and available
+  resources or methods.
+links:
+- target: UR-0016
+  type: implements
+attrs:
+  source_ref: MANAGE 1.2
+rationale: Risk refers to the composite measure of an event’s probability of occurring and the
+  magnitude (or degree) of the consequences of the corresponding events. The impacts, or consequences,
+  of AI systems can be positive, negative, or both and can result in opportunities or risks.

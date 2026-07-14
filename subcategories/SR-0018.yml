@@ -1,0 +1,15 @@
+uid: SR-0018
+type: system_requirement
+status: approved
+title: AI RMF GOVERN 6.1
+text: Policies and procedures are in place that address AI risks associated with third-party
+  entities, including risks of infringement of a third-party’s intellectual property or other
+  rights.
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: GOVERN 6.1
+rationale: Risk measurement and management can be complicated by how customers use or integrate
+  third-party data or systems into AI products or services, particularly without sufficient
+  internal governance structures and technical safeguards.

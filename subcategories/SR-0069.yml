@@ -1,0 +1,21 @@
+uid: SR-0069
+type: system_requirement
+status: approved
+title: AI RMF MANAGE 3.2
+text: Pre-trained models which are used for development are monitored as part of AI system regular
+  monitoring and maintenance.
+links:
+- target: UR-0018
+  type: implements
+attrs:
+  source_ref: MANAGE 3.2
+rationale: A common approach in AI development is transfer learning, whereby an existing pre-trained
+  model is adapted for use in a different, but related application. AI actors in development
+  tasks often use pre-trained models from third-party entities for tasks such as image classification,
+  language prediction, and entity recognition, because the resources to build such models may
+  not be readily available to most organizations. Pre-trained models are typically trained to
+  address various classification or prediction problems, using exceedingly large datasets and
+  computationally intensive resources. The use of pre-trained models can make it difficult to
+  anticipate negative system outcomes or impacts. Lack of documentation or transparency tools
+  increases the difficulty and general complexity when deploying pre-trained models and hinders
+  root cause analyses.

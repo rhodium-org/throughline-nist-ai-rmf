@@ -1,0 +1,11 @@
+uid: INT-0004
+type: intent
+status: approved
+title: MANAGE — Prioritise and act on risks
+text: Risks are prioritized and acted upon based on a projected impact. The MANAGE function
+  entails allocating risk resources to mapped and measured risks on a regular basis and as defined
+  by the GOVERN function, so that AI risks are prioritized and acted upon based on a projected
+  impact.
+normative: false
+attrs:
+  source_ref: MANAGE

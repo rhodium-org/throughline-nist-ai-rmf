@@ -1,0 +1,15 @@
+uid: SR-0035
+type: system_requirement
+status: approved
+title: AI RMF MAP 4.2
+text: Internal risk controls for components of the AI system, including third-party AI technologies,
+  are identified and documented.
+links:
+- target: UR-0010
+  type: implements
+attrs:
+  source_ref: MAP 4.2
+rationale: In the course of their work, AI actors often utilize open-source, or otherwise freely
+  available, third-party technologies – some of which may have privacy, bias, and security risks.
+  Organizations may consider internal risk controls for these technology sources and build up
+  practices for evaluating third-party material prior to deployment.

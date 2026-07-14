@@ -1,0 +1,19 @@
+uid: SR-0059
+type: system_requirement
+status: approved
+title: AI RMF MEASURE 4.3
+text: Measurable performance improvements or declines based on consultations with relevant AI
+  actors, including affected communities, and field data about context-relevant risks and trustworthiness
+  characteristics are identified and documented.
+links:
+- target: UR-0015
+  type: implements
+attrs:
+  source_ref: MEASURE 4.3
+rationale: TEVV activities conducted throughout the AI system lifecycle can provide baseline
+  quantitative measures for trustworthy characteristics. When combined with results from Measure
+  2.5 to 2.11 and Measure 4.1 and 4.2, TEVV actors can maintain a comprehensive view of system
+  performance. These measures can be augmented through participatory engagement with potentially
+  impacted communities or other forms of stakeholder elicitation about AI systems’ impacts.
+  These sources of information can allow AI actors to explore potential adjustments to system
+  components, adapt operating conditions, or institute performance improvements.

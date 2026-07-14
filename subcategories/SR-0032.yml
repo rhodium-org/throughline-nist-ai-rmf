@@ -1,0 +1,24 @@
+uid: SR-0032
+type: system_requirement
+status: approved
+title: AI RMF MAP 3.4
+text: Processes for operator and practitioner proficiency with AI system performance and trustworthiness
+  – and relevant technical standards and certifications – are defined, assessed, and documented.
+links:
+- target: UR-0009
+  type: implements
+attrs:
+  source_ref: MAP 3.4
+rationale: Human-AI configurations can span from fully autonomous to fully manual. AI systems
+  can autonomously make decisions, defer decision-making to a human expert, or be used by a
+  human decision-maker as an additional opinion. In some scenarios, professionals with expertise
+  in a specific domain work in conjunction with an AI system towards a specific end goal—for
+  example, a decision about another individual(s). Depending on the purpose of the system, the
+  expert may interact with the AI system but is rarely part of the design or development of
+  the system itself. These experts are not necessarily familiar with machine learning, data
+  science, computer science, or other fields traditionally associated with AI design or development
+  and - depending on the application - will likely not require such familiarity. For example,
+  for AI systems that are deployed in health care delivery the experts are the physicians and
+  bring their expertise about medicine—not data science, data modeling and engineering, or other
+  computational factors. The challenge in these settings is not educating the end user about
+  AI system capabilities, but rather leveraging, and not replacing, practitioner domain expertise.

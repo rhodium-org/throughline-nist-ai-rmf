@@ -1,0 +1,15 @@
+uid: SR-0005
+type: system_requirement
+status: approved
+title: AI RMF GOVERN 1.5
+text: Ongoing monitoring and periodic review of the risk management process and its outcomes
+  are planned and organizational roles and responsibilities clearly defined, including determining
+  the frequency of periodic review.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: GOVERN 1.5
+rationale: AI systems are dynamic and may perform in unexpected ways once deployed or after
+  deployment. Continuous monitoring is a risk management process for tracking unexpected issues
+  and performance changes, in real-time or at a specific frequency, across the AI system lifecycle.

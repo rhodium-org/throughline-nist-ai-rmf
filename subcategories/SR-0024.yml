@@ -1,0 +1,12 @@
+uid: SR-0024
+type: system_requirement
+status: approved
+title: AI RMF MAP 1.5
+text: Organizational risk tolerances are determined and documented.
+links:
+- target: UR-0007
+  type: implements
+attrs:
+  source_ref: MAP 1.5
+rationale: Risk tolerance reflects the level and type of risk the organization is willing to
+  accept while conducting its mission and carrying out its strategy.

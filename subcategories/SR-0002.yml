@@ -1,0 +1,14 @@
+uid: SR-0002
+type: system_requirement
+status: approved
+title: AI RMF GOVERN 1.2
+text: The characteristics of trustworthy AI are integrated into organizational policies, processes,
+  procedures, and practices.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: GOVERN 1.2
+rationale: Policies, processes, and procedures are central components of effective AI risk management
+  and fundamental to individual and organizational accountability. All stakeholders benefit
+  from policies, processes, and procedures which require preventing harm by design and default.

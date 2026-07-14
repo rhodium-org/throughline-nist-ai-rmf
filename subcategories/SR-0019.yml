@@ -1,0 +1,13 @@
+uid: SR-0019
+type: system_requirement
+status: approved
+title: AI RMF GOVERN 6.2
+text: Contingency processes are in place to handle failures or incidents in third-party data
+  or AI systems deemed to be high-risk.
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: GOVERN 6.2
+rationale: To mitigate the potential harms of third-party system failures, organizations may
+  implement policies and procedures that include redundancies for covering third-party functions.

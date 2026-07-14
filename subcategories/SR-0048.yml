@@ -1,0 +1,20 @@
+uid: SR-0048
+type: system_requirement
+status: approved
+title: AI RMF MEASURE 2.8
+text: Risks associated with transparency and accountability – as identified in the map function
+  – are examined and documented.
+links:
+- target: UR-0013
+  type: implements
+attrs:
+  source_ref: MEASURE 2.8
+rationale: Transparency enables meaningful visibility into entire AI pipelines, workflows, processes
+  or organizations and decreases information asymmetry between AI developers and operators and
+  other AI Actors and impacted communities. Transparency is a central element of effective AI
+  risk management that enables insight into how an AI system is working, and the ability to
+  address risks if and when they emerge. The ability for system users, individuals, or impacted
+  communities to seek redress for incorrect or problematic AI system outcomes is one control
+  for transparency and accountability. Higher level recourse processes are typically enabled
+  by lower level implementation efforts directed at explainability and interpretability functionality.
+  See Measure 2.9.

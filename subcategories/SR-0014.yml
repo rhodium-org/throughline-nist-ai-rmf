@@ -1,0 +1,16 @@
+uid: SR-0014
+type: system_requirement
+status: approved
+title: AI RMF GOVERN 4.2
+text: Organizational teams document the risks and potential impacts of the AI technology they
+  design, develop, deploy, evaluate, and use, and they communicate about the impacts more broadly.
+links:
+- target: UR-0004
+  type: implements
+attrs:
+  source_ref: GOVERN 4.2
+rationale: Impact assessments are one approach for driving responsible technology development
+  practices. And, within a specific use case, these assessments can provide a high-level structure
+  for organizations to frame risks of a given algorithm or deployment. Impact assessments can
+  also serve as a mechanism for organizations to articulate risks and generate documentation
+  for managing and oversight activities when harms do arise.

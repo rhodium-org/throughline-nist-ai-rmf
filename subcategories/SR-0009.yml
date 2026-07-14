@@ -1,0 +1,15 @@
+uid: SR-0009
+type: system_requirement
+status: approved
+title: AI RMF GOVERN 2.2
+text: The organization’s personnel and partners receive AI risk management training to enable
+  them to perform their duties and responsibilities consistent with related policies, procedures,
+  and agreements.
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: GOVERN 2.2
+rationale: 'To enhance AI risk management adoption and effectiveness, organizations are encouraged
+  to identify and integrate appropriate training curricula into enterprise learning requirements.
+  Through regular training, AI actors can maintain awareness of:'

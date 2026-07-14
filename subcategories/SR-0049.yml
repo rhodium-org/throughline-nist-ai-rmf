@@ -1,0 +1,14 @@
+uid: SR-0049
+type: system_requirement
+status: approved
+title: AI RMF MEASURE 2.9
+text: The AI model is explained, validated, and documented, and AI system output is interpreted
+  within its context – as identified in the map function – to inform responsible use and governance.
+links:
+- target: UR-0013
+  type: implements
+attrs:
+  source_ref: MEASURE 2.9
+rationale: Explainability and interpretability assist those operating or overseeing an AI system,
+  as well as users of an AI system, to gain deeper insights into the functionality and trustworthiness
+  of the system, including its outputs.

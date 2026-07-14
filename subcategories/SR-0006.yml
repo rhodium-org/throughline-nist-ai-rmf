@@ -1,0 +1,17 @@
+uid: SR-0006
+type: system_requirement
+status: approved
+title: AI RMF GOVERN 1.6
+text: Mechanisms are in place to inventory AI systems and are resourced according to organizational
+  risk priorities.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: GOVERN 1.6
+rationale: 'An AI system inventory is an organized database of artifacts relating to an AI system
+  or model. It may include system documentation, incident response plans, data dictionaries,
+  links to implementation software or source code, names and contact information for relevant
+  AI actors, or other information that may be helpful for model or system maintenance and incident
+  response purposes. AI system inventories also enable a holistic view of organizational AI
+  assets. A serviceable AI system inventory may allow for the quick resolution of:'

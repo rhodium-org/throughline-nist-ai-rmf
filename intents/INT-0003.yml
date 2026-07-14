@@ -1,0 +1,10 @@
+uid: INT-0003
+type: intent
+status: approved
+title: MEASURE — Assess, analyse and track risks
+text: Identified risks are assessed, analyzed, and tracked. The MEASURE function employs quantitative,
+  qualitative, or mixed-method tools, techniques, and methodologies to analyze, assess, benchmark,
+  and monitor AI risk and related impacts.
+normative: false
+attrs:
+  source_ref: MEASURE

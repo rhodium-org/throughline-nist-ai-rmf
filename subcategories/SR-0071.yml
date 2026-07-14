@@ -1,0 +1,15 @@
+uid: SR-0071
+type: system_requirement
+status: approved
+title: AI RMF MANAGE 4.2
+text: Measurable activities for continual improvements are integrated into AI system updates
+  and include regular engagement with interested parties, including relevant AI actors.
+links:
+- target: UR-0019
+  type: implements
+attrs:
+  source_ref: MANAGE 4.2
+rationale: Regular monitoring processes enable system updates to enhance performance and functionality
+  in accordance with regulatory and legal frameworks, and organizational and contextual values
+  and norms. These processes also facilitate analyses of root causes, system degradation, drift,
+  near-misses, and failures, and incident response and documentation.

@@ -1,0 +1,11 @@
+uid: UR-0003
+type: user_requirement
+status: approved
+title: GOVERN 3
+text: Workforce diversity, equity, inclusion, and accessibility processes are prioritized in
+  the mapping, measuring, and managing of AI risks throughout the lifecycle.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: GOVERN 3

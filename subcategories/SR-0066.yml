@@ -1,0 +1,16 @@
+uid: SR-0066
+type: system_requirement
+status: approved
+title: AI RMF MANAGE 2.3
+text: Procedures are followed to respond to and recover from a previously unknown risk when
+  it is identified.
+links:
+- target: UR-0017
+  type: implements
+attrs:
+  source_ref: MANAGE 2.3
+rationale: AI systems – like any technology – can demonstrate non-functionality or failure or
+  unexpected and unusual behavior. They also can be subject to attacks, incidents, or other
+  misuse or abuse – which their sources are not always known apriori. Organizations can establish,
+  document, communicate and maintain treatment procedures to recognize and counter, mitigate
+  and manage risks that were not previously identified.

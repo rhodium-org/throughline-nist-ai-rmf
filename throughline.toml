@@ -1,0 +1,63 @@
+[project]
+name = "NIST AI Risk Management Framework 1.0 (throughline source)"
+format_version = 2
+
+# A throughline *source*: a standalone graph a consuming project composes via
+# throughline-compose, importing it under a namespace (e.g. `airmf`) and referencing
+# outcomes as `airmf:SR-0007`. The UIDs here are this source's own and immutable; the
+# AI RMF identifier (`GOVERN 1.1`, `MAP 2`, `MEASURE`) lives in `attrs.source_ref`, never
+# in the UID.
+
+[grounding]
+root_types = ["intent"]
+delivery_roots = ["intent"]
+ground_link_types = ["derives_from", "implements"]
+ai_origins = ["ai", "hybrid"]
+
+# The "why" spine is MULTI-ROOT by design. The AI RMF Core is organised under four
+# Functions — GOVERN, MAP, MEASURE, MANAGE — and those are four genuinely different
+# reasons the framework exists (govern the programme / map the context and risks / measure
+# and analyse them / manage and respond). They are NOT one "manage AI risk" umbrella; that
+# would flatten every outcome's reason-for-existing into one bland "…exists". So there are
+# four co-equal **root** intents (INT-0001..INT-0004 = the four Functions). Each Category
+# (`GOVERN 1`, `MAP 2`) is a user_requirement that `derives_from` its own Function and
+# carries the Category's own Core statement as its `rationale`; each Subcategory outcome
+# (`GOVERN 1.1`) is a system_requirement that `implements` its Category. The Core hierarchy
+# is strict (one Function per Category, one Category per Subcategory), so a Subcategory
+# grounds to its Function through implements->derives_from with no extra edge.
+
+[types.user_requirement]
+# source_ref = the AI RMF Category id ("GOVERN 1", "MAP 2").
+attrs.source_ref = { required = true }
+
+[types.system_requirement]
+# source_ref = the AI RMF Subcategory id ("GOVERN 1.1"). AI RMF does not grade outcomes by
+# level (unlike ASVS/AISVS), so there is no `level` attribute. Editions (1.0, and any future
+# revision) are git tags of this one repo.
+attrs.source_ref = { required = true }
+
+[links]
+types = ["derives_from", "implements", "relates"]
+
+[link_rules]
+derives_from = { from = ["user_requirement"], to = ["intent"] }
+implements   = { from = ["system_requirement"], to = ["user_requirement"] }
+
+[status]
+values = ["proposed", "draft", "deferred", "approved", "ratified", "implemented",
+          "verified", "suspect", "rejected", "deleted"]
+
+[transitions]
+proposed    = ["draft", "approved", "ratified", "deferred", "rejected", "deleted"]
+draft       = ["approved", "deferred", "rejected", "deleted"]
+deferred    = ["draft", "approved", "rejected", "deleted"]
+approved    = ["ratified", "implemented", "deferred", "suspect", "rejected", "deleted"]
+ratified    = ["implemented", "suspect", "rejected", "deleted"]
+implemented = ["verified", "suspect", "rejected", "deleted"]
+verified    = ["implemented", "suspect", "deleted"]
+suspect     = ["approved", "ratified", "implemented", "verified", "rejected", "deleted"]
+rejected    = ["draft", "deleted"]
+
+# `tl docs` regenerates docs/*.md from the graph; `tl docs --check` gates it.
+[docs]
+paths = ["README.md", "docs/*.md"]

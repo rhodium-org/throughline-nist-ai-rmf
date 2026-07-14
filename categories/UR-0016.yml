@@ -1,0 +1,11 @@
+uid: UR-0016
+type: user_requirement
+status: approved
+title: MANAGE 1
+text: AI risks based on assessments and other analytical output from the MAP and MEASURE functions
+  are prioritized, responded to, and managed.
+links:
+- target: INT-0004
+  type: derives_from
+attrs:
+  source_ref: MANAGE 1

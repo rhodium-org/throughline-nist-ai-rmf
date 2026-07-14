@@ -1,0 +1,14 @@
+uid: SR-0016
+type: system_requirement
+status: approved
+title: AI RMF GOVERN 5.1
+text: Organizational policies and practices are in place to collect, consider, prioritize, and
+  integrate feedback from those external to the team that developed or deployed the AI system
+  regarding the potential individual and societal impacts related to AI risks.
+links:
+- target: UR-0005
+  type: implements
+attrs:
+  source_ref: GOVERN 5.1
+rationale: Beyond internal and laboratory-based system testing, organizational policies and
+  practices may consider AI system fitness-for-purpose related to the intended context of use.

@@ -1,0 +1,17 @@
+uid: SR-0060
+type: system_requirement
+status: approved
+title: AI RMF MANAGE 1.1
+text: A determination is made as to whether the AI system achieves its intended purposes and
+  stated objectives and whether its development or deployment should proceed.
+links:
+- target: UR-0016
+  type: implements
+attrs:
+  source_ref: MANAGE 1.1
+rationale: AI systems may not necessarily be the right solution for a given business task or
+  problem. A standard risk management practice is to formally weigh an AI system’s negative
+  risks against its benefits, and to determine if the AI system is an appropriate solution.
+  Tradeoffs among trustworthiness characteristics —such as deciding to deploy a system based
+  on system performance vs system transparency–may require regular assessment throughout the
+  AI lifecycle.

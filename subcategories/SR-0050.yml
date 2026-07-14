@@ -1,0 +1,14 @@
+uid: SR-0050
+type: system_requirement
+status: approved
+title: AI RMF MEASURE 2.10
+text: Privacy risk of the AI system – as identified in the map function – is examined and documented.
+links:
+- target: UR-0013
+  type: implements
+attrs:
+  source_ref: MEASURE 2.10
+rationale: Privacy refers generally to the norms and practices that help to safeguard human
+  autonomy, identity, and dignity. These norms and practices typically address freedom from
+  intrusion, limiting observation, or individuals’ agency to consent to disclosure or control
+  of facets of their identities (e.g., body, data, reputation).

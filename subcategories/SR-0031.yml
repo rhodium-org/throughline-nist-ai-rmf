@@ -1,0 +1,14 @@
+uid: SR-0031
+type: system_requirement
+status: approved
+title: AI RMF MAP 3.3
+text: Targeted application scope is specified and documented based on the system’s capability,
+  established context, and AI system categorization.
+links:
+- target: UR-0009
+  type: implements
+attrs:
+  source_ref: MAP 3.3
+rationale: Systems that function in a narrow scope tend to enable better mapping, measurement,
+  and management of risks in the learning or decision-making tasks and the system context. A
+  narrow application scope also helps ease TEVV functions and related resources within an organization.

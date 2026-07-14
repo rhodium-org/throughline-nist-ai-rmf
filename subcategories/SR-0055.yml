@@ -1,0 +1,14 @@
+uid: SR-0055
+type: system_requirement
+status: approved
+title: AI RMF MEASURE 3.2
+text: Risk tracking approaches are considered for settings where AI risks are difficult to assess
+  using currently available measurement techniques or where metrics are not yet available.
+links:
+- target: UR-0014
+  type: implements
+attrs:
+  source_ref: MEASURE 3.2
+rationale: Risks identified in the Map function may be complex, emerge over time, or difficult
+  to measure. Systematic methods for risk tracking, including novel measurement approaches,
+  can be established as part of regular monitoring and improvement processes.

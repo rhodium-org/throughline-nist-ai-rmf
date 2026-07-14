@@ -1,0 +1,17 @@
+uid: SR-0057
+type: system_requirement
+status: approved
+title: AI RMF MEASURE 4.1
+text: Measurement approaches for identifying AI risks are connected to deployment context(s)
+  and informed through consultation with domain experts and other end users. Approaches are
+  documented.
+links:
+- target: UR-0015
+  type: implements
+attrs:
+  source_ref: MEASURE 4.1
+rationale: AI Actors carrying out TEVV tasks may have difficulty evaluating impacts within the
+  system context of use. AI system risks and impacts are often best described by end users and
+  others who may be affected by output and subsequent decisions. AI Actors can elicit feedback
+  from impacted individuals and communities via participatory engagement processes established
+  in Govern 5.1 and 5.2, and carried out in Map 1.6, 5.1, and 5.2.

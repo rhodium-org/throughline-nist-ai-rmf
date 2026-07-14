@@ -1,0 +1,16 @@
+uid: SR-0053
+type: system_requirement
+status: approved
+title: AI RMF MEASURE 2.13
+text: Effectiveness of the employed TEVV metrics and processes in the measure function are evaluated
+  and documented.
+links:
+- target: UR-0013
+  type: implements
+attrs:
+  source_ref: MEASURE 2.13
+rationale: The development of metrics is a process often considered to be objective but, as
+  a human and organization driven endeavor, can reflect implicit and systemic biases, and may
+  inadvertently reflect factors unrelated to the target function. Measurement approaches can
+  be oversimplified, gamed, lack critical nuance, become used and relied upon in unexpected
+  ways, fail to account for differences in affected groups and contexts.

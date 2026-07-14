@@ -1,0 +1,10 @@
+uid: UR-0007
+type: user_requirement
+status: approved
+title: MAP 1
+text: Context is established and understood.
+links:
+- target: INT-0002
+  type: derives_from
+attrs:
+  source_ref: MAP 1

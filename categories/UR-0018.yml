@@ -1,0 +1,10 @@
+uid: UR-0018
+type: user_requirement
+status: approved
+title: MANAGE 3
+text: AI risks and benefits from third-party entities are managed.
+links:
+- target: INT-0004
+  type: derives_from
+attrs:
+  source_ref: MANAGE 3

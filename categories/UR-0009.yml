@@ -1,0 +1,11 @@
+uid: UR-0009
+type: user_requirement
+status: approved
+title: MAP 3
+text: AI capabilities, targeted usage, goals, and expected benefits and costs compared with
+  appropriate benchmarks are understood.
+links:
+- target: INT-0002
+  type: derives_from
+attrs:
+  source_ref: MAP 3

@@ -1,0 +1,11 @@
+uid: UR-0001
+type: user_requirement
+status: approved
+title: GOVERN 1
+text: Policies, processes, procedures, and practices across the organization related to the
+  mapping, measuring, and managing of AI risks are in place, transparent, and implemented effectively.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: GOVERN 1

@@ -1,0 +1,10 @@
+uid: UR-0008
+type: user_requirement
+status: approved
+title: MAP 2
+text: Categorization of the AI system is performed.
+links:
+- target: INT-0002
+  type: derives_from
+attrs:
+  source_ref: MAP 2

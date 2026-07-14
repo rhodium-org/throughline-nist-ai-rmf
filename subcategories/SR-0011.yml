@@ -1,0 +1,16 @@
+uid: SR-0011
+type: system_requirement
+status: approved
+title: AI RMF GOVERN 3.1
+text: Decision-making related to mapping, measuring, and managing AI risks throughout the lifecycle
+  is informed by a diverse team (e.g., diversity of demographics, disciplines, experience, expertise,
+  and backgrounds).
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: GOVERN 3.1
+rationale: A diverse team that includes AI actors with diversity of experience, disciplines,
+  and backgrounds to enhance organizational capacity and capability for anticipating risks is
+  better equipped to carry out risk management. Consultation with external personnel may be
+  necessary when internal teams lack a diverse range of lived experiences or disciplinary expertise.

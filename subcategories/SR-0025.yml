@@ -1,0 +1,16 @@
+uid: SR-0025
+type: system_requirement
+status: approved
+title: AI RMF MAP 1.6
+text: System requirements (e.g., “the system shall respect the privacy of its users”) are elicited
+  from and understood by relevant AI actors. Design decisions take socio-technical implications
+  into account to address AI risks.
+links:
+- target: UR-0007
+  type: implements
+attrs:
+  source_ref: MAP 1.6
+rationale: AI system development requirements may outpace documentation processes for traditional
+  software. When written requirements are unavailable or incomplete, AI actors may inadvertently
+  overlook business and stakeholder needs, over-rely on implicit human biases such as confirmation
+  bias and groupthink, and maintain exclusive focus on computational requirements.

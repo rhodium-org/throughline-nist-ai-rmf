@@ -1,0 +1,22 @@
+uid: SR-0004
+type: system_requirement
+status: approved
+title: AI RMF GOVERN 1.4
+text: The risk management process and its outcomes are established through transparent policies,
+  procedures, and other controls based on organizational risk priorities.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: GOVERN 1.4
+rationale: Clear policies and procedures relating to documentation and transparency facilitate
+  and enhance efforts to communicate roles and responsibilities for the Map, Measure and Manage
+  functions across the AI lifecycle. Standardized documentation can help organizations systematically
+  integrate AI risk management processes and enhance accountability efforts. For example, by
+  adding their contact information to a work product document, AI actors can improve communication,
+  increase ownership of work products, and potentially enhance consideration of product quality.
+  Documentation may generate downstream benefits related to improved system replicability and
+  robustness. Proper documentation storage and access procedures allow for quick retrieval of
+  critical information during a negative incident. Explainable machine learning efforts (models
+  and explanatory methods) may bolster technical documentation practices by introducing additional
+  information for review and interpretation by AI Actors.

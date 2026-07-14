@@ -1,0 +1,19 @@
+uid: SR-0047
+type: system_requirement
+status: approved
+title: AI RMF MEASURE 2.7
+text: AI system security and resilience – as identified in the map function – are evaluated
+  and documented.
+links:
+- target: UR-0013
+  type: implements
+attrs:
+  source_ref: MEASURE 2.7
+rationale: AI systems, as well as the ecosystems in which they are deployed, may be said to
+  be resilient if they can withstand unexpected adverse events or unexpected changes in their
+  environment or use – or if they can maintain their functions and structure in the face of
+  internal and external change and degrade safely and gracefully when this is necessary. Common
+  security concerns relate to adversarial examples, data poisoning, and the exfiltration of
+  models, training data, or other intellectual property through AI system endpoints. AI systems
+  that can maintain confidentiality, integrity, and availability through protection mechanisms
+  that prevent unauthorized access and use may be said to be secure.

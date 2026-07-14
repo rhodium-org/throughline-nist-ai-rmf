@@ -1,0 +1,14 @@
+uid: SR-0001
+type: system_requirement
+status: approved
+title: AI RMF GOVERN 1.1
+text: Legal and regulatory requirements involving AI are understood, managed, and documented.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: GOVERN 1.1
+rationale: AI systems may be subject to specific applicable legal and regulatory requirements.
+  Some legal requirements can mandate (e.g., nondiscrimination, data privacy and security controls)
+  documentation, disclosure, and increased AI system transparency. These requirements are complex
+  and may not be applicable or differ across applications and contexts.

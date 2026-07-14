@@ -1,0 +1,15 @@
+uid: SR-0026
+type: system_requirement
+status: approved
+title: AI RMF MAP 2.1
+text: The specific tasks and methods used to implement the tasks that the AI system will support
+  are defined (e.g., classifiers, generative models, recommenders).
+links:
+- target: UR-0008
+  type: implements
+attrs:
+  source_ref: MAP 2.1
+rationale: AI actors define the technical learning or decision-making task(s) an AI system is
+  designed to accomplish, or the benefits that the system will provide. The clearer and narrower
+  the task definition, the easier it is to map its benefits and risks, leading to more fulsome
+  risk management.

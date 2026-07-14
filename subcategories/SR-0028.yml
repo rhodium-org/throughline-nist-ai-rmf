@@ -1,0 +1,20 @@
+uid: SR-0028
+type: system_requirement
+status: approved
+title: AI RMF MAP 2.3
+text: Scientific integrity and TEVV considerations are identified and documented, including
+  those related to experimental design, data collection and selection (e.g., availability, representativeness,
+  suitability), system trustworthiness, and construct validation.
+links:
+- target: UR-0008
+  type: implements
+attrs:
+  source_ref: MAP 2.3
+rationale: Standard testing and evaluation protocols provide a basis to confirm assurance in
+  a system that it is operating as designed and claimed. AI systems’ complexities create challenges
+  for traditional testing and evaluation methodologies, which tend to be designed for static
+  or isolated system performance. Opportunities for risk continue well beyond design and deployment,
+  into system operation and application of system-enabled decisions. Testing and evaluation
+  methodologies and metrics therefore address a continuum of activities. TEVV is enhanced when
+  key metrics for performance, safety, and reliability are interpreted in a socio-technical
+  context and not confined to the boundaries of the AI system pipeline.

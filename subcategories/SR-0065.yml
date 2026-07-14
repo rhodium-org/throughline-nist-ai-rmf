@@ -1,0 +1,20 @@
+uid: SR-0065
+type: system_requirement
+status: approved
+title: AI RMF MANAGE 2.2
+text: Mechanisms are in place and applied to sustain the value of deployed AI systems.
+links:
+- target: UR-0017
+  type: implements
+attrs:
+  source_ref: MANAGE 2.2
+rationale: System performance and trustworthiness may evolve and shift over time, once an AI
+  system is deployed and put into operation. This phenomenon, generally known as drift, can
+  degrade the value of the AI system to the organization and increase the likelihood of negative
+  impacts. Regular monitoring of AI systems’ performance and trustworthiness enhances organizations’
+  ability to detect and respond to drift, and thus sustain an AI system’s value once deployed.
+  Processes and mechanisms for regular monitoring address system functionality and behavior
+  - as well as impacts and alignment with the values and norms within the specific context of
+  use. For example, considerations regarding impacts on personal or public safety or privacy
+  may include limiting high speeds when operating autonomous vehicles or restricting illicit
+  content recommendations for minors.

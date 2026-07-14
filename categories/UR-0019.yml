@@ -1,0 +1,11 @@
+uid: UR-0019
+type: user_requirement
+status: approved
+title: MANAGE 4
+text: Risk treatments, including response and recovery, and communication plans for the identified
+  and measured AI risks are documented and monitored regularly.
+links:
+- target: INT-0004
+  type: derives_from
+attrs:
+  source_ref: MANAGE 4

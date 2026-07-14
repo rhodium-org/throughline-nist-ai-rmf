@@ -1,0 +1,18 @@
+uid: SR-0058
+type: system_requirement
+status: approved
+title: AI RMF MEASURE 4.2
+text: Measurement results regarding AI system trustworthiness in deployment context(s) and across
+  the AI lifecycle are informed by input from domain experts and relevant AI actors to validate
+  whether the system is performing consistently as intended. Results are documented.
+links:
+- target: UR-0015
+  type: implements
+attrs:
+  source_ref: MEASURE 4.2
+rationale: Feedback captured from relevant AI Actors can be evaluated in combination with output
+  from Measure 2.5 to 2.11 to determine if the AI system is performing within pre-defined operational
+  limits for validity and reliability, safety, security and resilience, privacy, bias and fairness,
+  explainability and interpretability, and transparency and accountability. This feedback provides
+  an additional layer of insight about AI system performance, including potential misuse or
+  reuse outside of intended settings.

@@ -1,0 +1,19 @@
+uid: SR-0007
+type: system_requirement
+status: approved
+title: AI RMF GOVERN 1.7
+text: Processes and procedures are in place for decommissioning and phasing out AI systems safely
+  and in a manner that does not increase risks or decrease the organization’s trustworthiness.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: GOVERN 1.7
+rationale: Irregular or indiscriminate termination or deletion of models or AI systems may be
+  inappropriate and increase organizational risk. For example, AI systems may be subject to
+  regulatory requirements or implicated in future security or legal investigations. To maintain
+  trust, organizations may consider establishing policies and processes for the systematic and
+  deliberate decommissioning of AI systems. Typically, such policies consider user and community
+  concerns, risks in dependent and linked systems, and security, legal or regulatory concerns.
+  Decommissioned models or systems may be stored in a model inventory along with active models,
+  for an established length of time.

@@ -1,0 +1,23 @@
+uid: SR-0040
+type: system_requirement
+status: approved
+title: AI RMF MEASURE 1.3
+text: Internal experts who did not serve as front-line developers for the system and/or independent
+  assessors are involved in regular assessments and updates. Domain experts, users, AI actors
+  external to the team that developed or deployed the AI system, and affected communities are
+  consulted in support of assessments as necessary per organizational risk tolerance.
+links:
+- target: UR-0012
+  type: implements
+attrs:
+  source_ref: MEASURE 1.3
+rationale: The current AI systems are brittle, the failure modes are not well described, and
+  the systems are dependent on the context in which they were developed and do not transfer
+  well outside of the training environment. A reliance on local evaluations will be necessary
+  along with a continuous monitoring of these systems. Measurements that extend beyond classical
+  measures (which average across test cases) or expand to focus on pockets of failures where
+  there are potentially significant costs can improve the reliability of risk management activities.
+  Feedback from affected communities about how AI systems are being used can make AI evaluation
+  purposeful. Involving internal experts who did not serve as front-line developers for the
+  system and/or independent assessors regular assessments of AI systems helps a fulsome characterization
+  of AI systems’ performance and trustworthiness .

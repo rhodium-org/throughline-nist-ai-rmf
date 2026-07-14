@@ -1,0 +1,17 @@
+uid: SR-0070
+type: system_requirement
+status: approved
+title: AI RMF MANAGE 4.1
+text: Post-deployment AI system monitoring plans are implemented, including mechanisms for capturing
+  and evaluating input from users and other relevant AI actors, appeal and override, decommissioning,
+  incident response, recovery, and change management.
+links:
+- target: UR-0019
+  type: implements
+attrs:
+  source_ref: MANAGE 4.1
+rationale: AI system performance and trustworthiness can change due to a variety of factors.
+  Regular AI system monitoring can help deployers identify performance degradations, adversarial
+  attacks, unexpected and unusual behavior, near-misses, and impacts. Including pre- and post-deployment
+  external feedback about AI system performance can enhance organizational awareness about positive
+  and negative impacts, and reduce the time to respond to risks and harms.

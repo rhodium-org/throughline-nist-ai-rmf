@@ -1,0 +1,17 @@
+uid: SR-0039
+type: system_requirement
+status: approved
+title: AI RMF MEASURE 1.2
+text: Appropriateness of AI metrics and effectiveness of existing controls are regularly assessed
+  and updated, including reports of errors and potential impacts on affected communities.
+links:
+- target: UR-0012
+  type: implements
+attrs:
+  source_ref: MEASURE 1.2
+rationale: Different AI tasks, such as neural networks or natural language processing, benefit
+  from different evaluation techniques. Use-case and particular settings in which the AI system
+  is used also affects appropriateness of the evaluation techniques. Changes in the operational
+  settings, data drift, model drift are among factors that suggest regularly assessing and updating
+  appropriateness of AI metrics and their effectiveness can enhance reliability of AI system
+  measurements.

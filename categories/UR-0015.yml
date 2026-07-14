@@ -1,0 +1,10 @@
+uid: UR-0015
+type: user_requirement
+status: approved
+title: MEASURE 4
+text: Feedback about efficacy of measurement is gathered and assessed.
+links:
+- target: INT-0003
+  type: derives_from
+attrs:
+  source_ref: MEASURE 4

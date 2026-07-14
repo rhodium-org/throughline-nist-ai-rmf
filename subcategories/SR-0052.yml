@@ -1,0 +1,15 @@
+uid: SR-0052
+type: system_requirement
+status: approved
+title: AI RMF MEASURE 2.12
+text: Environmental impact and sustainability of AI model training and management activities
+  – as identified in the map function – are assessed and documented.
+links:
+- target: UR-0013
+  type: implements
+attrs:
+  source_ref: MEASURE 2.12
+rationale: Large-scale, high-performance computational resources used by AI systems for training
+  and operation can contribute to environmental impacts. Direct negative impacts to the environment
+  from these processes are related to energy consumption, water consumption, and greenhouse
+  gas (GHG) emissions. The OECD has identified metrics for each type of negative direct impact.

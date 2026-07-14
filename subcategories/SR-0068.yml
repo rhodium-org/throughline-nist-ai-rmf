@@ -1,0 +1,19 @@
+uid: SR-0068
+type: system_requirement
+status: approved
+title: AI RMF MANAGE 3.1
+text: AI risks and benefits from third-party resources are regularly monitored, and risk controls
+  are applied and documented.
+links:
+- target: UR-0018
+  type: implements
+attrs:
+  source_ref: MANAGE 3.1
+rationale: AI systems may depend on external resources and associated processes, including third-party
+  data, software or hardware systems. Third parties’ supplying organizations with components
+  and services, including tools, software, and expertise for AI system design, development,
+  deployment or use can improve efficiency and scalability. It can also increase complexity
+  and opacity, and, in-turn, risk. Documenting third-party technologies, personnel, and resources
+  that were employed can help manage risks. Focusing first and foremost on risks involving physical
+  safety, legal liabilities, regulatory compliance, and negative impacts on individuals, groups,
+  or society is recommended.

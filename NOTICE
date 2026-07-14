@@ -1,0 +1,38 @@
+standard-nist-ai-rmf
+Copyright 2026 Time Back Solutions Limited
+
+This product includes work developed by Time Back Solutions Limited.
+
+The repository's structure, tooling and configuration are licensed under the Apache
+License, Version 2.0. See the LICENSE file for the full terms.
+
+This repository is a throughline *source*: a requirements graph, not a program. It
+re-expresses the NIST AI Risk Management Framework (AI RMF) 1.0 as a grounded IDD graph so
+consuming projects can compose it with throughline-compose.
+
+The AI RMF Function, Category and Subcategory statements (each item's `text`) and the
+per-Subcategory "about this subcategory" descriptions (each system_requirement's
+`rationale`) are taken from:
+
+  - NIST AI 100-1, Artificial Intelligence Risk Management Framework (AI RMF 1.0) —
+    https://www.nist.gov/itl/ai-risk-management-framework
+    (Core section: https://airc.nist.gov/airmf-resources/airmf/5-sec-core/)
+  - NIST AI RMF Playbook —
+    https://airc.nist.gov/airmf-resources/playbook/
+    (data: https://airc.nist.gov/docs/playbook.json)
+
+The NIST AI RMF 1.0 and its Playbook are works prepared by officers and employees of the
+United States Government as part of their official duties and are therefore in the **public
+domain** in the United States (17 U.S.C. Sec. 105). There is no copyright restriction on
+their reuse. The vendored data under `tools/airmf-1.0/` and the item `text`/`rationale`
+fields derived from it are used on that basis.
+
+NIST does not directly or indirectly endorse this project, and its inclusion of NIST
+content does not imply any such endorsement. NIST is credited here solely as the
+authoritative source of the framework text.
+
+This project's own additions — the throughline graph structure, UID allocation, generator
+and configuration — are covered by the Apache-2.0 licence above and are clearly additional
+to the NIST content.
+
+See https://www.nist.gov/itl/ai-risk-management-framework for the authoritative source.

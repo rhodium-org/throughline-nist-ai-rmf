@@ -1,0 +1,15 @@
+uid: SR-0034
+type: system_requirement
+status: approved
+title: AI RMF MAP 4.1
+text: Approaches for mapping AI technology and legal risks of its components – including the
+  use of third-party data or software – are in place, followed, and documented, as are risks
+  of infringement of a third party’s intellectual property or other rights.
+links:
+- target: UR-0010
+  type: implements
+attrs:
+  source_ref: MAP 4.1
+rationale: Technologies and personnel from third-parties are another potential sources of risk
+  to consider during AI risk management activities. Such risks may be difficult to map since
+  risk priorities or tolerances may not be the same as the deployer organization.

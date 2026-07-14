@@ -1,0 +1,16 @@
+uid: SR-0045
+type: system_requirement
+status: approved
+title: AI RMF MEASURE 2.5
+text: The AI system to be deployed is demonstrated to be valid and reliable. Limitations of
+  the generalizability beyond the conditions under which the technology was developed are documented.
+links:
+- target: UR-0013
+  type: implements
+attrs:
+  source_ref: MEASURE 2.5
+rationale: An AI system that is not validated or that fails validation may be inaccurate or
+  unreliable or may generalize poorly to data and settings beyond its training, creating and
+  increasing AI risks and reducing trustworthiness. AI Actors can improve system validity by
+  creating processes for exploring and documenting system limitations. This includes broad consideration
+  of purposes and uses for which the system was not designed.

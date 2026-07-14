@@ -1,0 +1,10 @@
+uid: UR-0004
+type: user_requirement
+status: approved
+title: GOVERN 4
+text: Organizational teams are committed to a culture that considers and communicates AI risk.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: GOVERN 4

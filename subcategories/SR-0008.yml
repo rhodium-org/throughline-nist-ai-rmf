@@ -1,0 +1,17 @@
+uid: SR-0008
+type: system_requirement
+status: approved
+title: AI RMF GOVERN 2.1
+text: Roles and responsibilities and lines of communication related to mapping, measuring, and
+  managing AI risks are documented and are clear to individuals and teams throughout the organization.
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: GOVERN 2.1
+rationale: The development of a risk-aware organizational culture starts with defining responsibilities.
+  For example, under some risk management structures, professionals carrying out test and evaluation
+  tasks are independent from AI system developers and report through risk management functions
+  or directly to executives. This kind of structure may help counter implicit biases such as
+  groupthink or sunk cost fallacy and bolster risk management functions, so efforts are not
+  easily bypassed or ignored.

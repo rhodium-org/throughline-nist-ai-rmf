@@ -1,0 +1,17 @@
+uid: SR-0033
+type: system_requirement
+status: approved
+title: AI RMF MAP 3.5
+text: Processes for human oversight are defined, assessed, and documented in accordance with
+  organizational policies from the govern function.
+links:
+- target: UR-0009
+  type: implements
+attrs:
+  source_ref: MAP 3.5
+rationale: As AI systems have evolved in accuracy and precision, computational systems have
+  moved from being used purely for decision support—or for explicit use by and under the control
+  of a human operator—to automated decision making with limited input from humans. Computational
+  decision support systems augment another, typically human, system in making decisions.These
+  types of configurations increase the likelihood of outputs being produced with little human
+  involvement.

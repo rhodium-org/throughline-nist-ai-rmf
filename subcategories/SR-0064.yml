@@ -1,0 +1,18 @@
+uid: SR-0064
+type: system_requirement
+status: approved
+title: AI RMF MANAGE 2.1
+text: Resources required to manage AI risks are taken into account – along with viable non-AI
+  alternative systems, approaches, or methods – to reduce the magnitude or likelihood of potential
+  impacts.
+links:
+- target: UR-0017
+  type: implements
+attrs:
+  source_ref: MANAGE 2.1
+rationale: Organizational risk response may entail identifying and analyzing alternative approaches,
+  methods, processes or systems, and balancing tradeoffs between trustworthiness characteristics
+  and how they relate to organizational principles and societal values. Analysis of these tradeoffs
+  is informed by consulting with interdisciplinary organizational teams, independent domain
+  experts, and engaging with individuals or community groups. These processes require sufficient
+  resource allocation.

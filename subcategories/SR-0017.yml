@@ -1,0 +1,15 @@
+uid: SR-0017
+type: system_requirement
+status: approved
+title: AI RMF GOVERN 5.2
+text: Mechanisms are established to enable the team that developed or deployed AI systems to
+  regularly incorporate adjudicated feedback from relevant AI actors into system design and
+  implementation.
+links:
+- target: UR-0005
+  type: implements
+attrs:
+  source_ref: GOVERN 5.2
+rationale: Organizational policies and procedures that equip AI actors with the processes, knowledge,
+  and expertise needed to inform collaborative decisions about system deployment improve risk
+  management. These decisions are closely tied to AI systems and organizational risk tolerance.

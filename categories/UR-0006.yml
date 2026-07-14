@@ -1,0 +1,11 @@
+uid: UR-0006
+type: user_requirement
+status: approved
+title: GOVERN 6
+text: Policies and procedures are in place to address AI risks and benefits arising from third-party
+  software and data and other supply chain issues.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: GOVERN 6

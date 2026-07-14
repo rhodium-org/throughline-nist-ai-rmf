@@ -1,0 +1,10 @@
+uid: UR-0014
+type: user_requirement
+status: approved
+title: MEASURE 3
+text: Mechanisms for tracking identified AI risks over time are in place.
+links:
+- target: INT-0003
+  type: derives_from
+attrs:
+  source_ref: MEASURE 3

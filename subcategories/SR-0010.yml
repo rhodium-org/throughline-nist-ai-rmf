@@ -1,0 +1,14 @@
+uid: SR-0010
+type: system_requirement
+status: approved
+title: AI RMF GOVERN 2.3
+text: Executive leadership of the organization takes responsibility for decisions about risks
+  associated with AI system development and deployment.
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: GOVERN 2.3
+rationale: Senior leadership and members of the C-Suite in organizations that maintain an AI
+  portfolio, should maintain awareness of AI risks, affirm the organizational appetite for such
+  risks, and be responsible for managing those risks..

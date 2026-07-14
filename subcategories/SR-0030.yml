@@ -1,0 +1,17 @@
+uid: SR-0030
+type: system_requirement
+status: approved
+title: AI RMF MAP 3.2
+text: Potential costs, including non-monetary costs, which result from expected or realized
+  AI errors or system functionality and trustworthiness – as connected to organizational risk
+  tolerance – are examined and documented.
+links:
+- target: UR-0009
+  type: implements
+attrs:
+  source_ref: MAP 3.2
+rationale: Anticipating negative impacts of AI systems is a difficult task. Negative impacts
+  can be due to many factors, such as system non-functionality or use outside of its operational
+  limits, and may range from minor annoyance to serious injury, financial losses, or regulatory
+  enforcement actions. AI actors can work with a broad set of stakeholders to improve their
+  capacity for understanding systems’ potential impacts – and subsequently – systems’ risks.

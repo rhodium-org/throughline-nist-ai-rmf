@@ -1,0 +1,21 @@
+uid: SR-0038
+type: system_requirement
+status: approved
+title: AI RMF MEASURE 1.1
+text: Approaches and metrics for measurement of AI risks enumerated during the map function
+  are selected for implementation starting with the most significant AI risks. The risks or
+  trustworthiness characteristics that will not – or cannot – be measured are properly documented.
+links:
+- target: UR-0012
+  type: implements
+attrs:
+  source_ref: MEASURE 1.1
+rationale: The development and utility of trustworthy AI systems depends on reliable measurements
+  and evaluations of underlying technologies and their use. Compared with traditional software
+  systems, AI technologies bring new failure modes, inherent dependence on training data and
+  methods which directly tie to data quality and representativeness. Additionally, AI systems
+  are inherently socio-technical in nature, meaning they are influenced by societal dynamics
+  and human behavior. AI risks – and benefits – can emerge from the interplay of technical aspects
+  combined with societal factors related to how a system is used, its interactions with other
+  AI systems, who operates it, and the social context in which it is deployed. In other words,
+  What should be measured depends on the purpose, audience, and needs of the evaluations.
