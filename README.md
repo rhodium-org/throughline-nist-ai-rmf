@@ -1,4 +1,4 @@
-# standard-nist-ai-rmf
+# throughline-nist-ai-rmf
 
 The **NIST AI Risk Management Framework (AI RMF) 1.0** (NIST AI 100-1) expressed as a
 [throughline](https://pypi.org/project/throughline/) **source** — a standalone, grounded
@@ -63,7 +63,7 @@ Unlike ASVS or AISVS, the AI RMF **grades no outcome by an assurance level**, so
 
 **Editions are git tags of this one repo.** `v1.0` tags the AI RMF 1.0 edition; a future AI
 RMF revision would be a new tag on this same repo. A consumer pins `airmf@v1.0`. This is the
-same editions-as-tags model as `standard-asvs`, `standard-aisvs` and `standard-wcag`.
+same editions-as-tags model as `throughline-asvs`, `throughline-aisvs` and `throughline-wcag`.
 
 ## Modelling conventions
 
@@ -83,13 +83,13 @@ In a consuming project's `throughline.toml`:
 
 ```toml
 [sources.airmf]
-url = "https://github.com/rhodium-org/standard-nist-ai-rmf"
+url = "https://github.com/timebacksolutions/throughline-nist-ai-rmf"
 ref = "v1.0"
 ```
 
 Then reference an outcome as `airmf:SR-0001` (legal & regulatory requirements understood) from
 your own items. The AI RMF is the natural **governance-layer** partner to
-[`standard-aisvs`](https://github.com/rhodium-org/standard-aisvs): AISVS verifies an AI
+[`throughline-aisvs`](https://github.com/timebacksolutions/throughline-aisvs): AISVS verifies an AI
 application's *controls*, while the AI RMF frames how an organisation *governs, maps,
 measures and manages* AI risk — a consumer can compose both.
 
