@@ -28,6 +28,8 @@ the Playbook's "about this subcategory" prose as its `rationale`. The AI RMF id 
 
 > Policies, processes, procedures, and practices across the organization related to the mapping, measuring, and managing of AI risks are in place, transparent, and implemented effectively.
 
+*Derives from:* INT-0001
+
 **source_ref**: GOVERN 1
 <!-- tl:end -->
 
@@ -50,6 +52,8 @@ the Playbook's "about this subcategory" prose as its `rationale`. The AI RMF id 
 
 > Accountability structures are in place so that the appropriate teams and individuals are empowered, responsible, and trained for mapping, measuring, and managing AI risks.
 
+*Derives from:* INT-0001
+
 **source_ref**: GOVERN 2
 <!-- tl:end -->
 
@@ -68,6 +72,8 @@ the Playbook's "about this subcategory" prose as its `rationale`. The AI RMF id 
 
 > Workforce diversity, equity, inclusion, and accessibility processes are prioritized in the mapping, measuring, and managing of AI risks throughout the lifecycle.
 
+*Derives from:* INT-0001
+
 **source_ref**: GOVERN 3
 <!-- tl:end -->
 
@@ -84,6 +90,8 @@ the Playbook's "about this subcategory" prose as its `rationale`. The AI RMF id 
 **UR-0004 — GOVERN 4** — `user_requirement`, status `approved`
 
 > Organizational teams are committed to a culture that considers and communicates AI risk.
+
+*Derives from:* INT-0001
 
 **source_ref**: GOVERN 4
 <!-- tl:end -->
@@ -103,6 +111,8 @@ the Playbook's "about this subcategory" prose as its `rationale`. The AI RMF id 
 
 > Processes are in place for robust engagement with relevant AI actors.
 
+*Derives from:* INT-0001
+
 **source_ref**: GOVERN 5
 <!-- tl:end -->
 
@@ -119,6 +129,8 @@ the Playbook's "about this subcategory" prose as its `rationale`. The AI RMF id 
 **UR-0006 — GOVERN 6** — `user_requirement`, status `approved`
 
 > Policies and procedures are in place to address AI risks and benefits arising from third-party software and data and other supply chain issues.
+
+*Derives from:* INT-0001
 
 **source_ref**: GOVERN 6
 <!-- tl:end -->
@@ -147,6 +159,8 @@ the Playbook's "about this subcategory" prose as its `rationale`. The AI RMF id 
 
 > Context is established and understood.
 
+*Derives from:* INT-0002
+
 **source_ref**: MAP 1
 <!-- tl:end -->
 
@@ -168,6 +182,8 @@ the Playbook's "about this subcategory" prose as its `rationale`. The AI RMF id 
 
 > Categorization of the AI system is performed.
 
+*Derives from:* INT-0002
+
 **source_ref**: MAP 2
 <!-- tl:end -->
 
@@ -185,6 +201,8 @@ the Playbook's "about this subcategory" prose as its `rationale`. The AI RMF id 
 **UR-0009 — MAP 3** — `user_requirement`, status `approved`
 
 > AI capabilities, targeted usage, goals, and expected benefits and costs compared with appropriate benchmarks are understood.
+
+*Derives from:* INT-0002
 
 **source_ref**: MAP 3
 <!-- tl:end -->
@@ -206,6 +224,8 @@ the Playbook's "about this subcategory" prose as its `rationale`. The AI RMF id 
 
 > Risks and benefits are mapped for all components of the AI system including third-party software and data.
 
+*Derives from:* INT-0002
+
 **source_ref**: MAP 4
 <!-- tl:end -->
 
@@ -222,6 +242,8 @@ the Playbook's "about this subcategory" prose as its `rationale`. The AI RMF id 
 **UR-0011 — MAP 5** — `user_requirement`, status `approved`
 
 > Impacts to individuals, groups, communities, organizations, and society are characterized.
+
+*Derives from:* INT-0002
 
 **source_ref**: MAP 5
 <!-- tl:end -->
@@ -250,6 +272,8 @@ the Playbook's "about this subcategory" prose as its `rationale`. The AI RMF id 
 
 > Appropriate methods and metrics are identified and applied.
 
+*Derives from:* INT-0003
+
 **source_ref**: MEASURE 1
 <!-- tl:end -->
 
@@ -267,6 +291,8 @@ the Playbook's "about this subcategory" prose as its `rationale`. The AI RMF id 
 **UR-0013 — MEASURE 2** — `user_requirement`, status `approved`
 
 > AI systems are evaluated for trustworthy characteristics.
+
+*Derives from:* INT-0003
 
 **source_ref**: MEASURE 2
 <!-- tl:end -->
@@ -296,6 +322,8 @@ the Playbook's "about this subcategory" prose as its `rationale`. The AI RMF id 
 
 > Mechanisms for tracking identified AI risks over time are in place.
 
+*Derives from:* INT-0003
+
 **source_ref**: MEASURE 3
 <!-- tl:end -->
 
@@ -313,6 +341,8 @@ the Playbook's "about this subcategory" prose as its `rationale`. The AI RMF id 
 **UR-0015 — MEASURE 4** — `user_requirement`, status `approved`
 
 > Feedback about efficacy of measurement is gathered and assessed.
+
+*Derives from:* INT-0003
 
 **source_ref**: MEASURE 4
 <!-- tl:end -->
@@ -342,6 +372,8 @@ the Playbook's "about this subcategory" prose as its `rationale`. The AI RMF id 
 
 > AI risks based on assessments and other analytical output from the MAP and MEASURE functions are prioritized, responded to, and managed.
 
+*Derives from:* INT-0004
+
 **source_ref**: MANAGE 1
 <!-- tl:end -->
 
@@ -360,6 +392,8 @@ the Playbook's "about this subcategory" prose as its `rationale`. The AI RMF id 
 **UR-0017 — MANAGE 2** — `user_requirement`, status `approved`
 
 > Strategies to maximize AI benefits and minimize negative impacts are planned, prepared, implemented, documented, and informed by input from relevant AI actors.
+
+*Derives from:* INT-0004
 
 **source_ref**: MANAGE 2
 <!-- tl:end -->
@@ -380,6 +414,8 @@ the Playbook's "about this subcategory" prose as its `rationale`. The AI RMF id 
 
 > AI risks and benefits from third-party entities are managed.
 
+*Derives from:* INT-0004
+
 **source_ref**: MANAGE 3
 <!-- tl:end -->
 
@@ -396,6 +432,8 @@ the Playbook's "about this subcategory" prose as its `rationale`. The AI RMF id 
 **UR-0019 — MANAGE 4** — `user_requirement`, status `approved`
 
 > Risk treatments, including response and recovery, and communication plans for the identified and measured AI risks are documented and monitored regularly.
+
+*Derives from:* INT-0004
 
 **source_ref**: MANAGE 4
 <!-- tl:end -->
