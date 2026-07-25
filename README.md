@@ -3,7 +3,7 @@
 The **NIST AI Risk Management Framework (AI RMF) 1.0** (NIST AI 100-1) expressed as a
 [throughline](https://pypi.org/project/throughline/) **source** — a standalone, grounded
 requirements graph that a consuming project composes with
-[throughline-compose](https://github.com/timebacksolutions/throughline-compose).
+[throughline-compose](https://github.com/rhodium-org/throughline-compose).
 
 This repository holds no application code. It is a directory of small YAML items with
 permanent UIDs, validated by `tl check`. Consumers import it under a namespace and
@@ -83,13 +83,13 @@ In a consuming project's `throughline.toml`:
 
 ```toml
 [sources.airmf]
-url = "https://github.com/timebacksolutions/throughline-nist-ai-rmf"
+url = "https://github.com/rhodium-org/throughline-nist-ai-rmf"
 ref = "v1.0"
 ```
 
 Then reference an outcome as `airmf:SR-0001` (legal & regulatory requirements understood) from
 your own items. The AI RMF is the natural **governance-layer** partner to
-[`throughline-aisvs`](https://github.com/timebacksolutions/throughline-aisvs): AISVS verifies an AI
+[`throughline-aisvs`](https://github.com/rhodium-org/throughline-aisvs): AISVS verifies an AI
 application's *controls*, while the AI RMF frames how an organisation *governs, maps,
 measures and manages* AI risk — a consumer can compose both.
 
