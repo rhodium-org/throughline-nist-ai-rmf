@@ -22,10 +22,14 @@ per-Subcategory "about this subcategory" descriptions (each system_requirement's
     (data: https://airc.nist.gov/docs/playbook.json)
 
 The NIST AI RMF 1.0 and its Playbook are works prepared by officers and employees of the
-United States Government as part of their official duties and are therefore in the **public
-domain** in the United States (17 U.S.C. Sec. 105). There is no copyright restriction on
-their reuse. The vendored data under `tools/airmf-1.0/` and the item `text`/`rationale`
-fields derived from it are used on that basis.
+United States Government as part of their official duties and are therefore in the
+**public domain** in the United States (17 U.S.C. Sec. 105). Outside the United States
+NIST reserves its rights, and grants a non-exclusive, perpetual, royalty-free, worldwide
+right to reprint its publications in all formats
+(https://www.nist.gov/open/copyright-fair-use-and-licensing-statements-srd-data-software-and-technical-series-publications).
+As NIST asks: Republished courtesy of the National Institute of Standards and Technology.
+The vendored data under `tools/airmf-1.0/` and the item `text`/`rationale` fields derived
+from it are used on that basis.
 
 NIST does not directly or indirectly endorse this project, and its inclusion of NIST
 content does not imply any such endorsement. NIST is credited here solely as the
