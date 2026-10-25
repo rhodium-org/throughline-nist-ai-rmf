@@ -1,6 +1,6 @@
 [project]
 name = "NIST AI Risk Management Framework 1.0 (throughline source)"
-format_version = 3
+format_version = 4
 
 # A throughline *source*: a standalone graph a consuming project composes via
 # throughline-compose, importing it under a namespace (e.g. `airmf`) and referencing
