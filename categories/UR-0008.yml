@@ -1,8 +1,9 @@
 uid: UR-0008
 type: user_requirement
-status: approved
+status: proposed
 title: MAP 2
 text: Categorization of the AI system is performed.
+normative: true
 links:
 - target: INT-0002
   type: derives_from

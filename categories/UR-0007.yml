@@ -1,8 +1,9 @@
 uid: UR-0007
 type: user_requirement
-status: approved
+status: proposed
 title: MAP 1
 text: Context is established and understood.
+normative: true
 links:
 - target: INT-0002
   type: derives_from

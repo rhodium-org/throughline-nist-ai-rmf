@@ -1,14 +1,15 @@
 uid: SR-0072
 type: system_requirement
-status: approved
+status: proposed
 title: AI RMF MANAGE 4.3
-text: Incidents and errors are communicated to relevant AI actors, including affected communities.
-  Processes for tracking, responding to, and recovering from incidents and errors are followed
-  and documented.
+text: Incidents and errors are communicated to relevant AI actors, including affected
+  communities. Processes for tracking, responding to, and recovering from incidents
+  and errors are followed and documented.
+rationale: 'Regularly documenting an accurate and transparent account of identified
+  and reported errors can enhance AI risk management activities., Examples include:'
+normative: true
 links:
 - target: UR-0019
   type: implements
 attrs:
   source_ref: MANAGE 4.3
-rationale: 'Regularly documenting an accurate and transparent account of identified and reported
-  errors can enhance AI risk management activities., Examples include:'

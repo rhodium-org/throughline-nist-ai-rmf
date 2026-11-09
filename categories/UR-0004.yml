@@ -1,8 +1,10 @@
 uid: UR-0004
 type: user_requirement
-status: approved
+status: proposed
 title: GOVERN 4
-text: Organizational teams are committed to a culture that considers and communicates AI risk.
+text: Organizational teams are committed to a culture that considers and communicates
+  AI risk.
+normative: true
 links:
 - target: INT-0001
   type: derives_from

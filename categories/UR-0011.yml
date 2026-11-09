@@ -1,8 +1,10 @@
 uid: UR-0011
 type: user_requirement
-status: approved
+status: proposed
 title: MAP 5
-text: Impacts to individuals, groups, communities, organizations, and society are characterized.
+text: Impacts to individuals, groups, communities, organizations, and society are
+  characterized.
+normative: true
 links:
 - target: INT-0002
   type: derives_from

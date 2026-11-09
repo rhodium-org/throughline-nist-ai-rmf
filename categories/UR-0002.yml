@@ -1,9 +1,11 @@
 uid: UR-0002
 type: user_requirement
-status: approved
+status: proposed
 title: GOVERN 2
-text: Accountability structures are in place so that the appropriate teams and individuals are
-  empowered, responsible, and trained for mapping, measuring, and managing AI risks.
+text: Accountability structures are in place so that the appropriate teams and individuals
+  are empowered, responsible, and trained for mapping, measuring, and managing AI
+  risks.
+normative: true
 links:
 - target: INT-0001
   type: derives_from

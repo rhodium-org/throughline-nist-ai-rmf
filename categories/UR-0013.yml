@@ -1,8 +1,9 @@
 uid: UR-0013
 type: user_requirement
-status: approved
+status: proposed
 title: MEASURE 2
 text: AI systems are evaluated for trustworthy characteristics.
+normative: true
 links:
 - target: INT-0003
   type: derives_from
